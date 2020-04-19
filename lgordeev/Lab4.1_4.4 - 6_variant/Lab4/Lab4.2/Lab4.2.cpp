@@ -11,11 +11,9 @@ int main()
     cout << "Введите x и n ";
     cin >> x >> n;
     for (int i = 0; i < n; i++) {
-        a = sin(x);
-        for (int j = 0; j < i; j++) {
-            a = sin(a);
-        }
-        S = S + a;
+        a = x;
+        x = sin(a);
+        S = S + x;
     }
     cout << "S = " << S;
     
