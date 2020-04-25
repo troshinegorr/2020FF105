@@ -9,17 +9,11 @@ int main()
     int l = 0;
     cout << "Введите натуральное N: ";
     cin >> N;
-    bool a = true;
     A = N;
-    while (a)
+    while (N>0)
     {
         N = N / 10;
         l = l + 1;
-        if (N <= 0)
-        {
-            a = false;
-            break;
-        }
     }
     int b, c, d, e, M;
     if (l == 5) {
@@ -43,11 +37,8 @@ int main()
             m = n;
             p = 1;
         }
-        else {
-            if (n == m) {
-                p = p + 1;
-            }
-        }
+        else if (n == m)
+            p = p + 1;
         K = K / 10;
     }
     cout << "Количество цифр с наибольшим значением: " << p << endl;
