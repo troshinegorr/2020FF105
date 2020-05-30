@@ -1,0 +1,3 @@
+﻿  ConsoleApplication7.cpp
+c:\users\миша\desktop\яп\consoleapplication7\consoleapplication7\consoleapplication7.cpp(96): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  ConsoleApplication7.vcxproj -> C:\Users\Миша\Desktop\ЯП\ConsoleApplication7\Debug\ConsoleApplication7.exe

@@ -1,0 +1,5 @@
+﻿  ConsoleApplication4.cpp
+c:\users\миша\desktop\яп\consoleapplication4\consoleapplication4\consoleapplication4.cpp(62): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\миша\desktop\яп\consoleapplication4\consoleapplication4\consoleapplication4.cpp(67): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\миша\desktop\яп\consoleapplication4\consoleapplication4\consoleapplication4.cpp(14): warning C4101: e: неиспользованная локальная переменная
+  ConsoleApplication4.vcxproj -> C:\Users\Миша\Desktop\ЯП\ConsoleApplication4\Debug\ConsoleApplication4.exe
