@@ -1,0 +1,6 @@
+﻿  Lab8_2.cpp
+C:\Users\1\source\repos\Lab8_1\Lab8_2\Lab8_2.cpp(22,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\1\source\repos\Lab8_1\Lab8_2\Lab8_2.cpp(23,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\1\source\repos\Lab8_1\Lab8_2\Lab8_2.cpp(36,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\1\source\repos\Lab8_1\Lab8_2\Lab8_2.cpp(37,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Lab8_2.vcxproj -> C:\Users\1\source\repos\Lab8_1\Debug\Lab8_2.exe
