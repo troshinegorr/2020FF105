@@ -1,0 +1,3 @@
+﻿  1.2яп.cpp
+C:\Users\Kirill\source\repos\1.2яп\1.2яп\1.2яп.cpp(11,34): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  1.2яп.vcxproj -> C:\Users\Kirill\source\repos\1.2яп\Debug\1.2яп.exe
