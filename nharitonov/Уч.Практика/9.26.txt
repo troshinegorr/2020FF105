@@ -1,0 +1,30 @@
++package com.company;
+import java.util.Scanner; // Подключаем сканер
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Введите строку"); // Выводим на эран
+        System.out.println("Введите строку"); // Выводим на эран Scanner scan = new Scanner(System.in); // С помощью сканера считываем с клавиатуры и заносим в переменную str
+        String str = scan.nextLine();
+        str = str + ' ';// добавляем пробел в конце строки, чтобы не потерять последнее слово
+        String slv, res; // создаем 2 дополнительные строки для перевода слова и результата
+        slv ="";
+        res = "";
+        char[] str1 = new char[str.length()];// Создаём массив символов под длинну строки
+        for (int i = 0; i < str.length(); i++) { // Заполняем массив символов
+            str1[i] = str.charAt(i);
+        }
+        int n = str.length(); //В переменную n заносим длинну строки
+        for (int i = 0; i < str.length(); i++) {
+            if (Character.isLetter(str1[i])) { // если встретилась буква то в строку slv переписываем это слово наобороот 
+               slv = str1[i] + slv;
+            }
+            else // иначе
+            {
+                    res = res + slv +str1[i]; // в строку res переносим наше слово и последний символ (пробел или точка и.т.д)
+                    slv = "";// строку slv делаем пустой
+            } 
+        } 
+        System.out.println("Измененная строка: " + res); // Выводим
+    } 
+}
